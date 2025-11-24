@@ -41,6 +41,7 @@ jobs:
           registryPassword: ${{ secrets.CHESSBOARDRECOGNIZER_REGISTRY_PASSWORD }}
           containerAppName: chessboard-recognizer
           resourceGroup: group-2-resources
+          containerAppEnvironment: managedEnvironment-group2resources-888e
           imageToBuild: kjmetzler/chessboard-recognizer:${{ github.sha }}
 
 
